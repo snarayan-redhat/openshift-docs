@@ -692,6 +692,8 @@ Topics:
   File: audit-log-view
 - Name: Configuring the audit log policy
   File: audit-log-policy-config
+- Name: Configuring TLS security profiles
+  File: tls-security-profiles
 - Name: Allowing JavaScript-based access to the API server from additional hosts
   File: allowing-javascript-access-api-server
   Distros: openshift-enterprise,openshift-origin
@@ -2496,7 +2498,7 @@ Topics:
   - Name: Customizing the installation
     File: customizing-installation-ossm
   - Name: Performance and scalability
-    File: ossm-performance-scalability 
+    File: ossm-performance-scalability
   - Name: Deploying applications on Service Mesh
     File: prepare-to-deploy-applications-ossm
   - Name: Data visualization and observability
