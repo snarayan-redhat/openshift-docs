@@ -45,19 +45,7 @@ Because this command picks a random control plane node by default, the pod might
 +
 [NOTE]
 ====
-<<<<<<< HEAD
-<<<<<<< HEAD
-If your cluster is using a restricted network, you must take additional steps. If your mirror registry has a trusted CA, you must first add the trusted CA to the cluster. For all clusters on restricted networks, you must import the default `must-gather` image as an image stream before you use the `oc adm must-gather` command.
-
-----
-$ oc import-image is/must-gather -n openshift
-----
-=======
 Contact Red Hat Support for the recommended resources to gather.
->>>>>>> 236518b0a3... Adding note for NotReady master
-=======
-Contact Red Hat Support for the recommended resources to gather.
->>>>>>> 236518b0a3 (Adding note for NotReady master)
 ====
 
 . Create a compressed file from the `must-gather` directory that was just created in your working directory. For example, on a computer that uses a Linux
