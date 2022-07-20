@@ -22,6 +22,7 @@ Thus, if you set a retention size limit lower than the maximum size set for the 
 If any data blocks exceed the defined retention time or the defined size limit, Prometheus purges these data blocks.
 * If you define a value for `retentionSize` and do not define `retention`, only the `retentionSize` value applies.
 * If you do not define a value for `retentionSize` and only define a value for `retention`, only the `retention` value applies.
+* If you define the value for either `retention` or `retentionSize` as `0`, corresponding values do not apply.
 
 .Prerequisites
 
