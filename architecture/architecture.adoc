@@ -33,6 +33,7 @@ streams] - The imagestream API provides an abstraction over container images
 that exist in registries. It allows workloads to reference an image indirectly,
 retains a history of the images that have been referenced, and allows
 notification when an image is updated with a new version.
+testing for demo
 ////
 
 include::modules/cluster-entitlements.adoc[leveloffset=+2]
